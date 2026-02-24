@@ -3,8 +3,12 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY requirements.txt . # Ao invés de usar ADD . /app, resolvi apenas copiar o arquivo
-RUN pip install --no-cache-dir -r requirements.txt   # Em seguida, mando instalar as dependências do arquivo
+# Ao invés de usar ADD . /app, resolvi apenas copiar o arquivo
+COPY requirements.txt . 
+
+# Em seguida, mando instalar as dependências do arquivo
+
+RUN pip install --no-cache-dir -r requirements.txt   
 
 COPY . .
 
