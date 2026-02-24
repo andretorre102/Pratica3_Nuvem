@@ -1,2 +1,6 @@
-# Pratica3_Nuvem
-Repositório alusivo a Prática 3 da Disciplina de Des. Nuvem ADS/UFCA, consistente em Aplicação Docker-Compose na Nuvem
+-- EXPOSE 5000
+
+sudo docker build -t app:latest.
+sudo docker image ls
+sudo docker run -it -p 5000:5000 app:latest
+sudo docker ps -a
