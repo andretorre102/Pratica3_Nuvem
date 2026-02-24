@@ -29,6 +29,6 @@ INSERT INTO organizador (nome_org, nome_instituicao, cargo) VALUES
     ('Carlos Silva', 'Sindicato Rural', 'Presidente');
 
 INSERT INTO feira (nome, data_hora_inicio, data_hora_fim, localizacao, coordenadas, descricao, id_organizador) VALUES
-    ('Feira do Pirajá', '2026-10-01 05:00:00', '2026-10-01 13:00:00', 'Mercado do Pirajá', point(-38.7758, -7.3889), 'Feira comum', 1),
-    ('Feira da Areninha', '2026-10-05 07:00:00', '2026-10-05 17:00:00', 'Praça da Areninha', point(-38.7700, -7.3800), 'Feira de produtos orgânicos', 1),
+    ('Feira do Pirajá', '2026-10-01 05:00:00', '2026-10-01 13:00:00', 'Mercado do Pirajá', POINT(-38.7758, -7.3889), 'Feira comum', 1),
+    ('Feira da Areninha', '2026-10-05 07:00:00', '2026-10-05 17:00:00', 'Praça da Areninha', POINT(-38.7700, -7.3800), 'Feira de produtos orgânicos', 1),
     ('Feira do Sítio Cipuá', '2026-10-07 06:00:00', NULL, 'Zona Rural', point(-38.7690, -7.3550), 'Feira Comunitária', 3);
